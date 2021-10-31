@@ -2,11 +2,12 @@
     <string id="AppName">What speed</string>
     <string id="AppNameBeta">What speed beta</string>    
     
-    <string id="FtpValue">FTP</string>    
+<string id="FtpValue">FTP</string>    
     <string id="PowerPerSecond">Power per second</string>   
     <string id="CalcAvgPressurePerMinute">Calc avg. pressure per minute</string>   
-    <string id="MinimalLocationAccuracy">Minimal GPS accuracy for heading</string>   
-    
+    <string id="MinimalLocationAccuracy">Minimal GPS accuracy for calc heading</string>  
+    <string id="MinimalElapsedDistanceInMeters">Minimal distance/sec (m) for calc heading</string>  
+        
     <string id="TargetSpeed">Target speed (km/h)</string>    
     <string id="TargetDistance">Target distance (km)</string>    
     <string id="TargetCalories">Target calories (kcal)</string>    
@@ -48,4 +49,6 @@
     <string id="ShowInfoLayoutPrompt">Select layout</string>
     <string id="ShowInfoLayoutMiddleCircle">Circle</string>
     <string id="ShowInfoLayoutMiddleTriangle">Triangle</string>
+
+    <string id="Debug">Debug</string>    
 </strings>

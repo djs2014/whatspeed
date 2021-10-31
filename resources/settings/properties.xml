@@ -12,11 +12,14 @@
 	<property id="powerPerSecond" type="number">3</property>	
 	<property id="showSeaLevelPressure" type="boolean">true</property>			
 	<property id="calcAvgPressurePerMinute" type="number">30</property>
-	<property id="minimalLocationAccuracy" type="number">2</property>
-	
+	<property id="minimalLocationAccuracy" type="number">0</property>
+	<property id="minimalElapsedDistanceInMeters" type="number">0</property>
+
 	<property id="targetSpeed" type="number">30</property>	
 	<property id="targetDistance" type="number">150</property>	
 	<property id="targetCalories" type="number">2000</property>	
 	<property id="targetCadence" type="number">95</property>	
 	<property id="targetEnergyExpenditure" type="number">15</property>		
+
+	<property id="debug" type="boolean">false</property>
 </properties>

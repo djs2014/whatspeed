@@ -71,7 +71,51 @@
 			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>		
         </settingConfig>
     </setting> 
-<setting propertyKey="@Properties.showInfoHrFallback" title="@Strings.ShowInfoHrFallback" prompt="@Strings.ShowInfoPrompt">
+
+	<setting propertyKey="@Properties.ftpValue" title="@Strings.FtpValue">
+		<settingConfig type="numeric" min="0" />
+	</setting>	
+
+	<setting propertyKey="@Properties.powerPerSecond" title="@Strings.PowerPerSecond">
+		<settingConfig type="numeric" min="1" max="60" />
+	</setting>	   
+
+
+	<setting propertyKey="@Properties.showSeaLevelPressure" title="@Strings.ShowSeaLevelPressure">
+		<settingConfig type="boolean" />
+	</setting> 
+	<setting propertyKey="@Properties.calcAvgPressurePerMinute" title="@Strings.CalcAvgPressurePerMinute">
+		<settingConfig type="numeric" min="1" max="120" />
+	</setting>	   
+	<setting propertyKey="@Properties.targetSpeed" title="@Strings.TargetSpeed">
+		<settingConfig type="numeric" min="0" max="100" />
+	</setting>
+	<setting propertyKey="@Properties.targetCadence" title="@Strings.TargetCadence">
+		<settingConfig type="numeric" min="0" />
+	</setting>
+	<setting propertyKey="@Properties.targetDistance" title="@Strings.TargetDistance">
+		<settingConfig type="numeric" min="0" />
+	</setting>
+	<setting propertyKey="@Properties.targetCalories" title="@Strings.TargetCalories">
+		<settingConfig type="numeric" min="0" />
+	</setting>	
+	<setting propertyKey="@Properties.targetEnergyExpenditure" title="@Strings.TargetEnergyExpenditure">
+		<settingConfig type="numeric" min="0" />
+	</setting>	
+	<setting propertyKey="@Properties.minimalLocationAccuracy" title="@Strings.MinimalLocationAccuracy">
+		<settingConfig type="numeric" min="0" max="4"/>
+	</setting>	
+	<setting propertyKey="@Properties.minimalElapsedDistanceInMeters" title="@Strings.MinimalElapsedDistanceInMeters">
+		<settingConfig type="numeric" min="0" max="10"/>
+	</setting>	
+	
+	<setting propertyKey="@Properties.showInfoLayout" title="@Strings.ShowInfoLayout" prompt="@Strings.ShowInfoLayoutPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ShowInfoLayoutMiddleCircle</listEntry>
+            <listEntry value="1">@Strings.ShowInfoLayoutMiddleTriangle</listEntry>                        			
+        </settingConfig>
+    </setting> 
+	<setting propertyKey="@Properties.showInfoHrFallback" title="@Strings.ShowInfoHrFallback" prompt="@Strings.ShowInfoPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
             <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
@@ -107,44 +151,7 @@
 			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>				
         </settingConfig>
     </setting> 
-	<setting propertyKey="@Properties.ftpValue" title="@Strings.FtpValue">
-		<settingConfig type="numeric" min="0" />
-	</setting>	
-
-	<setting propertyKey="@Properties.powerPerSecond" title="@Strings.PowerPerSecond">
-		<settingConfig type="numeric" min="1" max="60" />
-	</setting>	   
-
-
-	<setting propertyKey="@Properties.showSeaLevelPressure" title="@Strings.ShowSeaLevelPressure">
+	<setting propertyKey="@Properties.debug" title="@Strings.Debug">
 		<settingConfig type="boolean" />
 	</setting> 
-	<setting propertyKey="@Properties.calcAvgPressurePerMinute" title="@Strings.CalcAvgPressurePerMinute">
-		<settingConfig type="numeric" min="1" max="120" />
-	</setting>	   
-	<setting propertyKey="@Properties.targetSpeed" title="@Strings.TargetSpeed">
-		<settingConfig type="numeric" min="0" max="100" />
-	</setting>
-	<setting propertyKey="@Properties.targetCadence" title="@Strings.TargetCadence">
-		<settingConfig type="numeric" min="0" />
-	</setting>
-	<setting propertyKey="@Properties.targetDistance" title="@Strings.TargetDistance">
-		<settingConfig type="numeric" min="0" />
-	</setting>
-	<setting propertyKey="@Properties.targetCalories" title="@Strings.TargetCalories">
-		<settingConfig type="numeric" min="0" />
-	</setting>	
-	<setting propertyKey="@Properties.targetEnergyExpenditure" title="@Strings.TargetEnergyExpenditure">
-		<settingConfig type="numeric" min="0" />
-	</setting>	
-	<setting propertyKey="@Properties.minimalLocationAccuracy" title="@Strings.MinimalLocationAccuracy">
-		<settingConfig type="numeric" min="0" max="4"/>
-	</setting>	
-	
-	<setting propertyKey="@Properties.showInfoLayout" title="@Strings.ShowInfoLayout" prompt="@Strings.ShowInfoLayoutPrompt">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.ShowInfoLayoutMiddleCircle</listEntry>
-            <listEntry value="1">@Strings.ShowInfoLayoutMiddleTriangle</listEntry>                        			
-        </settingConfig>
-    </setting> 
 </settings>
