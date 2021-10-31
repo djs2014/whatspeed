@@ -5,7 +5,7 @@
     <string id="FtpValue">FTP</string>    
     <string id="PowerPerSecond">Power per second</string>   
     <string id="CalcAvgPressurePerMinute">Calc avg. pressure per minute</string>   
-    <string id="MinimalLocationAccuracy">Minimal GPS accuray for heading</string>   
+    <string id="MinimalLocationAccuracy">Minimal GPS accuracy for heading</string>   
     
     <string id="TargetSpeed">Target speed (km/h)</string>    
     <string id="TargetDistance">Target distance (km)</string>    
