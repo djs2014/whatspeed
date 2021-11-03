@@ -2,7 +2,7 @@
     <string id="AppName">What speed</string>
     <string id="AppNameBeta">What speed beta</string>    
     
-<string id="FtpValue">FTP</string>    
+    <string id="FtpValue">FTP</string>    
     <string id="PowerPerSecond">Power per second</string>   
     <string id="CalcAvgPressurePerMinute">Calc avg. pressure per minute</string>   
     <string id="MinimalLocationAccuracy">Minimal GPS accuracy for calc heading</string>  
@@ -28,6 +28,7 @@
     
     <string id="ShowInfoNothing">Nothing</string>
     <string id="ShowInfoPower">Show power</string>    
+    <string id="ShowInfoPowerPerWeight">Show power/weight</string>    
     <string id="ShowInfoHeartrate">Show heartrate (HR)</string>
     <string id="ShowInfoSpeed">Show speed</string>    
     <string id="ShowInfoCadence">Show cadence</string>    
@@ -43,7 +44,7 @@
     <string id="ShowInfoTotalDescent">Show total descent</string>    
     <string id="ShowInfoTrainingEffect">Show training effect</string>    
     <string id="ShowInfoTemperature">Show temperature</string>    
-
+    <string id="ShowInfoTestfield">Show testfield</string>    
 
     <string id="ShowInfoLayout">Layout middle part</string>
     <string id="ShowInfoLayoutPrompt">Select layout</string>
@@ -51,4 +52,6 @@
     <string id="ShowInfoLayoutMiddleTriangle">Triangle</string>
 
     <string id="Debug">Debug</string>    
+    <string id="TargetTestValue">Target test value</string>    
+    <string id="TestValue">Actual test value</string>    
 </strings>
