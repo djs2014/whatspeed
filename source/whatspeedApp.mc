@@ -8,8 +8,9 @@ class whatspeedApp extends Application.AppBase {
   function initialize() {
     AppBase.initialize();
 
+    whatApp = new WhatAppBase.WhatApp();
     var appName = Application.loadResource(Rez.Strings.AppName) as Lang.String;
-    whatApp = new WhatAppBase.WhatApp(appName);    
+    whatApp.setAppName(appName);
   }
 
   // onStart() is called on application start up
