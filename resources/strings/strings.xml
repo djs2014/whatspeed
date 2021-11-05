@@ -52,6 +52,7 @@
     <string id="ShowInfoLayoutMiddleTriangle">Triangle</string>
 
     <string id="Debug">Debug</string>    
-    <string id="TargetTestValue">Target test value</string>    
-    <string id="TestValue">Actual test value</string>    
+     <string id="TargetTestValue">Test target value</string>    
+    <string id="TestValue">Test actual value</string>    
+    <string id="TestAltValue">Test actual alt value</string>      
 </strings>

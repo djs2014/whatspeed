@@ -23,5 +23,6 @@
 
 	<property id="debug" type="boolean">false</property>	
 	<property id="targetTestValue" type="number">100</property>	
-	<property id="testValue" type="number">250</property>		 
+	<property id="testValue" type="number">145</property>		 
+	<property id="testAltValue" type="number">80</property>		 
 </properties>
