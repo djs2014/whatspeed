@@ -3,110 +3,87 @@
         <settingConfig type="list">
             <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
             <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
             <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
-            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
-            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
-			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
-			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
-			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
-			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
-			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
 			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
 			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
-			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>					
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
+            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
+            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
+			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
+			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
+			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>								
         </settingConfig>
     </setting>      
 	<setting propertyKey="@Properties.showInfoLeft" title="@Strings.ShowInfoLeft" prompt="@Strings.ShowInfoPrompt">
         <settingConfig type="list">
-             <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
+            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
             <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
             <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
-            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
-            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
-			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
-			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
-			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
-			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
-			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>		
 			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
 			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
-			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>				
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
+            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
+            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
+			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
+			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
+			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
         </settingConfig>
     </setting> 
 	<setting propertyKey="@Properties.showInfoRight" title="@Strings.ShowInfoRight" prompt="@Strings.ShowInfoPrompt">
         <settingConfig type="list">
-             <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
+            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
             <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
             <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
-            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
-            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
-			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
-			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
-			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
-			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
-			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>	
 			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
 			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
-			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>				
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
+            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
+            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
+			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
+			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
+			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
         </settingConfig>
     </setting> 
 	 <setting propertyKey="@Properties.showInfoBottom" title="@Strings.ShowInfoBottom" prompt="@Strings.ShowInfoPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
             <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
             <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
+			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
+			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
             <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
             <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
-			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
-			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>	
-			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
-			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>	
-			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>		
+			
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
         </settingConfig>
     </setting> 
-<setting propertyKey="@Properties.showInfoHrFallback" title="@Strings.ShowInfoHrFallback" prompt="@Strings.ShowInfoPrompt">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
-            <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
-            <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
-            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
-            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
-			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
-			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
-			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
-			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
-			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>		
-			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
-			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>	
-			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>				
-        </settingConfig>
-    </setting> 
-	<setting propertyKey="@Properties.showInfoTrainingEffectFallback" title="@Strings.ShowInfoTrainingEffectFallback" prompt="@Strings.ShowInfoPrompt">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
-            <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
-            <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
-            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
-            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
-			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
-			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
-			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
-			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
-			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>		
-			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
-			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>	
-			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>				
-        </settingConfig>
-    </setting> 
+
 	<setting propertyKey="@Properties.ftpValue" title="@Strings.FtpValue">
 		<settingConfig type="numeric" min="0" />
 	</setting>	
@@ -140,6 +117,9 @@
 	<setting propertyKey="@Properties.minimalLocationAccuracy" title="@Strings.MinimalLocationAccuracy">
 		<settingConfig type="numeric" min="0" max="4"/>
 	</setting>	
+	<setting propertyKey="@Properties.minimalElapsedDistanceInMeters" title="@Strings.MinimalElapsedDistanceInMeters">
+		<settingConfig type="numeric" min="0" max="10"/>
+	</setting>	
 	
 	<setting propertyKey="@Properties.showInfoLayout" title="@Strings.ShowInfoLayout" prompt="@Strings.ShowInfoLayoutPrompt">
         <settingConfig type="list">
@@ -147,4 +127,56 @@
             <listEntry value="1">@Strings.ShowInfoLayoutMiddleTriangle</listEntry>                        			
         </settingConfig>
     </setting> 
+	<setting propertyKey="@Properties.showInfoHrFallback" title="@Strings.ShowInfoHrFallback" prompt="@Strings.ShowInfoPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
+            <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
+            <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
+			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
+			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
+            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
+            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
+			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
+			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
+			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
+        </settingConfig>
+    </setting> 
+	<setting propertyKey="@Properties.showInfoTrainingEffectFallback" title="@Strings.ShowInfoTrainingEffectFallback" prompt="@Strings.ShowInfoPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
+            <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
+            <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
+			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
+			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
+            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
+            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
+			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
+			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
+			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
+        </settingConfig>
+    </setting> 
+	<setting propertyKey="@Properties.debug" title="@Strings.Debug">
+		<settingConfig type="boolean" />
+	</setting> 
+	<setting propertyKey="@Properties.targetTestValue" title="@Strings.TargetTestValue">
+		<settingConfig type="numeric"/>
+	</setting>	
+	<setting propertyKey="@Properties.testValue" title="@Strings.TestValue">
+		<settingConfig type="numeric"/>
+	</setting>	
+	
 </settings>
