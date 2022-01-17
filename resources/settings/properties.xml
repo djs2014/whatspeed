@@ -6,7 +6,7 @@
 	<property id="showInfoHrFallback" type="number">0</property>
 	<property id="showInfoTrainingEffectFallback" type="number">0</property>
 
-	<property id="showInfoLayout" type="number">1</property>
+	<property id="showInfoLayout" type="number">0</property>
 
 	<property id="ftpValue" type="number">250</property>	
 	<property id="powerPerSecond" type="number">3</property>	
@@ -20,6 +20,10 @@
 	<property id="targetCalories" type="number">2000</property>	
 	<property id="targetCadence" type="number">95</property>	
 	<property id="targetEnergyExpenditure" type="number">15</property>		
+
+	<property id="hitEnabled" type="boolean">false</property>			
+	<property id="hitStartOnPerc" type="number">150</property>		
+	<property id="hitStopOnPerc" type="number">100</property>	
 
 	<property id="debug" type="boolean">false</property>	
 	<property id="targetTestValue" type="number">100</property>	

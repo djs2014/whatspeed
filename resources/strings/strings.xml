@@ -40,19 +40,25 @@
     <string id="ShowInfoTimeOfDay">Show the time of day</string>
     <string id="ShowInfoEnergyExpenditure">Show calories burned per min</string>
     <string id="ShowInfoCalories">Show calories</string>    
-    <string id="ShowInfoTotalAscent">Show total ascent</string>    
-    <string id="ShowInfoTotalDescent">Show total descent</string>    
+    <string id="ShowInfoElapsedTime">Show elapsed time</string>    
+    <string id="ShowInfoTimer">Show timer</string>        
     <string id="ShowInfoTrainingEffect">Show training effect</string>    
     <string id="ShowInfoTemperature">Show temperature</string>    
     <string id="ShowInfoTestfield">Show testfield</string>    
+
+    <string id="ShowInfoAscentDescent">Show total ascent/descent</string>    
 
     <string id="ShowInfoLayout">Layout middle part</string>
     <string id="ShowInfoLayoutPrompt">Select layout</string>
     <string id="ShowInfoLayoutMiddleCircle">Circle</string>
     <string id="ShowInfoLayoutMiddleTriangle">Triangle</string>
 
+    <string id="HitEnabled">Trigger HIT</string>    
+    <string id="HitStartOnPerc">Start HIT on % of FTP</string>    
+    <string id="HitStopOnPerc">Stop HIT on % of FTP</string>        
+
     <string id="Debug">Debug</string>    
-     <string id="TargetTestValue">Test target value</string>    
+    <string id="TargetTestValue">Test target value</string>    
     <string id="TestValue">Test actual value</string>    
-    <string id="TestAltValue">Test actual alt value</string>      
+    <string id="TestAltValue">Test actual alt value</string>    
 </strings>
