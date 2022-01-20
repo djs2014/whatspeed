@@ -15,6 +15,7 @@
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
 			
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
@@ -38,6 +39,7 @@
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
 
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
@@ -61,7 +63,8 @@
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
+
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
@@ -84,7 +87,8 @@
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
-			
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
+
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
@@ -151,6 +155,7 @@
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
 
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
@@ -174,6 +179,7 @@
 			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
 			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
 			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
 			
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
@@ -181,7 +187,7 @@
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
         </settingConfig>
     </setting> 
-
+	
 	<setting propertyKey="@Properties.hitEnabled" title="@Strings.HitEnabled">
 		<settingConfig type="boolean" />
 	</setting> 
