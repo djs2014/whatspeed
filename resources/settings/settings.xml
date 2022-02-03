@@ -188,13 +188,33 @@
         </settingConfig>
     </setting> 
 	
-	<setting propertyKey="@Properties.hitEnabled" title="@Strings.HitEnabled">
-		<settingConfig type="boolean" />
-	</setting> 
+	<setting propertyKey="@Properties.hitMode" title="@Strings.HitMode" prompt="@Strings.HitModePrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.HitModeDisabled</listEntry>
+            <listEntry value="1">@Strings.HitModeMinimal</listEntry>                        			
+            <listEntry value="2">@Strings.HitModeNormal</listEntry>                        			
+        </settingConfig>
+    </setting> 
+
+	<setting propertyKey="@Properties.hitSound" title="@Strings.HitSound" prompt="@Strings.HitSoundPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.HitSoundNone</listEntry>
+            <listEntry value="1">@Strings.HitSoundStart</listEntry>                        			
+            <listEntry value="2">@Strings.HitSoundLowNoise</listEntry>                        			
+            <listEntry value="3">@Strings.HitSoundLoudNoise</listEntry>                        			
+        </settingConfig>
+    </setting> 
+
 	<setting propertyKey="@Properties.hitStartOnPerc" title="@Strings.HitStartOnPerc">
 		<settingConfig type="numeric"/>
 	</setting>	
 	<setting propertyKey="@Properties.hitStopOnPerc" title="@Strings.HitStopOnPerc">
+		<settingConfig type="numeric"/>
+	</setting>	
+    <setting propertyKey="@Properties.hitStartCountDownSeconds" title="@Strings.HitStartCountDownSeconds">
+		<settingConfig type="numeric"/>
+	</setting>	
+	<setting propertyKey="@Properties.hitStopCountDownSeconds" title="@Strings.HitStopCountDownSeconds">
 		<settingConfig type="numeric"/>
 	</setting>	
 
