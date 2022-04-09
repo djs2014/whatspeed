@@ -21,7 +21,8 @@
     <string id="ShowInfoLeft">Show left</string>        
     <string id="ShowInfoRight">Show right</string>        
     <string id="ShowInfoBottom">Show bottom</string>    
-    <string id="ShowInfoHrFallback">Fallback if no HR connected</string>    
+    <string id="ShowInfoHrFallback">Fallback if no HR connected</string>   
+    <string id="ShowInfoPowerFallback">Fallback if no Power connected</string>     
     <string id="ShowInfoTrainingEffectFallback">Fallback if no training effect (needs HR)</string>    
 
     <string id="ShowInfoPrompt">Select information</string>

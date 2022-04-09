@@ -2,8 +2,9 @@
 	<property id="showInfoTop" type="number">7</property>
 	<property id="showInfoLeft" type="number">3</property>
 	<property id="showInfoRight" type="number">16</property>
-	<property id="showInfoBottom" type="number">7</property>
+	<property id="showInfoBottom" type="number">8</property>
 	<property id="showInfoHrFallback" type="number">0</property>
+	<property id="showInfoPowerFallback" type="number">0</property>
 	<property id="showInfoTrainingEffectFallback" type="number">0</property>
 
 	<property id="showInfoLayout" type="number">0</property>

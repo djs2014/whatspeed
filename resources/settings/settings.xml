@@ -195,7 +195,30 @@
             <listEntry value="2">@Strings.HitModeNormal</listEntry>                        			
         </settingConfig>
     </setting> 
+    <setting propertyKey="@Properties.showInfoPowerFallback" title="@Strings.ShowInfoPowerFallback" prompt="@Strings.ShowInfoPrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
+            <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
+			<listEntry value="17">@Strings.ShowInfoPowerPerWeight</listEntry>
+            <listEntry value="2">@Strings.ShowInfoHeartrate</listEntry>
+			<listEntry value="11">@Strings.ShowInfoCalories</listEntry>	
+			<listEntry value="14">@Strings.ShowInfoTrainingEffect</listEntry>
+			<listEntry value="16">@Strings.ShowInfoEnergyExpenditure</listEntry>
+            <listEntry value="3">@Strings.ShowInfoSpeed</listEntry>
+            <listEntry value="4">@Strings.ShowInfoCadence</listEntry>
+			<listEntry value="8">@Strings.ShowInfoDistance</listEntry>
+			<listEntry value="7">@Strings.ShowInfoHeading</listEntry>
+			<listEntry value="5">@Strings.ShowInfoAltitude</listEntry>
+			<listEntry value="6">@Strings.ShowInfoGrade</listEntry>
+			<listEntry value="9">@Strings.ShowInfoAmbientPressure</listEntry>
+			<listEntry value="19">@Strings.ShowInfoVo2Max</listEntry>
 
+			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
+			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
+        </settingConfig>
+    </setting> 
 	<setting propertyKey="@Properties.hitSound" title="@Strings.HitSound" prompt="@Strings.HitSoundPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.HitSoundNone</listEntry>
