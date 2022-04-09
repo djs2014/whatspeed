@@ -16,10 +16,12 @@ class whatspeedApp extends Application.AppBase {
 
   // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
+      whatApp.onStart(state);
     }
 
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
+      whatApp.onStop(state);
     }
 
     //! Return the initial view of your application here
