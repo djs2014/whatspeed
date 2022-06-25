@@ -1,35 +1,61 @@
 import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
+import Toybox.System;
+import Toybox.Background;
 using WhatAppBase;
 
+(:background)
 class whatspeedApp extends Application.AppBase {
-  var whatApp as WhatAppBase.WhatApp;
+  var isForeGround as Boolean = false;
   
   function initialize() {
     AppBase.initialize();
-
-    whatApp = new WhatAppBase.WhatApp();
-    var appName = Application.loadResource(Rez.Strings.AppName) as Lang.String;
-    whatApp.setAppName(appName);
   }
 
   // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-      whatApp.onStart(state);
+      if (isForeGround) {
+          System.println("FG onStart");
+          WhatAppBase.WhatApp.instance().onStart(state); 
+      } else {
+          System.println("BG onStart");
+      }
     }
 
     // onStop() is called when your application is exiting
+    (:typecheck(disableBackgroundCheck))
     function onStop(state as Dictionary?) as Void {
-      whatApp.onStop(state);
+      if (isForeGround) {
+          System.println("FG onStop");
+          WhatAppBase.WhatApp.instance().onStop(state); 
+      } else {
+          System.println("BG onStop");
+      }
     }
 
-    //! Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates> ? {
-      return whatApp.getInitialView();
+    (:typecheck(disableBackgroundCheck))
+    function getInitialView() as Array<Views or InputDelegates>? {
+        isForeGround = true;
+        var whatApp = WhatAppBase.WhatApp.instance();
+        var appName = Application.loadResource(Rez.Strings.AppName) as Lang.String;
+        whatApp.setAppName(appName);
+        return whatApp.getInitialView();
     }
 
-    function onSettingsChanged() { whatApp.onSettingsChanged(); }
+    (:typecheck(disableBackgroundCheck))
+    function onSettingsChanged() { WhatAppBase.WhatApp.instance().onSettingsChanged(); }
+
+    public function getServiceDelegate() as Array<System.ServiceDelegate> {     
+        return [new WhatAppBase.BackgroundServiceDelegate()] as Array<System.ServiceDelegate>;
+    }
+
+    (:typecheck(disableBackgroundCheck))
+    function onBackgroundData(data) {
+        System.println("Background data recieved");
+        WhatAppBase.WhatApp.instance().onBackgroundData(data);              
+        WatchUi.requestUpdate();
+    }
 }
 
 function getApp() as whatspeedApp {

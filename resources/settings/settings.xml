@@ -20,6 +20,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>								
         </settingConfig>
     </setting>      
@@ -44,6 +45,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
         </settingConfig>
     </setting> 
@@ -68,6 +70,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
         </settingConfig>
     </setting> 
@@ -92,6 +95,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
         </settingConfig>
     </setting> 
@@ -125,6 +129,12 @@
 	</setting>	
 	<setting propertyKey="@Properties.targetEnergyExpenditure" title="@Strings.TargetEnergyExpenditure">
 		<settingConfig type="numeric" min="0" />
+	</setting>	
+	<setting propertyKey="@Properties.targetGrade" title="@Strings.TargetGrade">
+		<settingConfig type="numeric" />
+	</setting>	
+	<setting propertyKey="@Properties.targetTemperature" title="@Strings.TargetTemperature">
+		<settingConfig type="numeric" />
 	</setting>	
 	<setting propertyKey="@Properties.minimalLocationAccuracy" title="@Strings.MinimalLocationAccuracy">
 		<settingConfig type="numeric" min="0" max="4"/>
@@ -187,15 +197,7 @@
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
         </settingConfig>
     </setting> 
-	
-	<setting propertyKey="@Properties.hitMode" title="@Strings.HitMode" prompt="@Strings.HitModePrompt">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.HitModeDisabled</listEntry>
-            <listEntry value="1">@Strings.HitModeMinimal</listEntry>                        			
-            <listEntry value="2">@Strings.HitModeNormal</listEntry>                        			
-        </settingConfig>
-    </setting> 
-    <setting propertyKey="@Properties.showInfoPowerFallback" title="@Strings.ShowInfoPowerFallback" prompt="@Strings.ShowInfoPrompt">
+	<setting propertyKey="@Properties.showInfoPowerFallback" title="@Strings.ShowInfoPowerFallback" prompt="@Strings.ShowInfoPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.ShowInfoNothing</listEntry>
             <listEntry value="1">@Strings.ShowInfoPower</listEntry>            
@@ -219,6 +221,14 @@
 			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
         </settingConfig>
     </setting> 
+	<setting propertyKey="@Properties.hitMode" title="@Strings.HitMode" prompt="@Strings.HitModePrompt">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.HitModeDisabled</listEntry>
+            <listEntry value="1">@Strings.HitModeMinimal</listEntry>                        			
+            <listEntry value="2">@Strings.HitModeNormal</listEntry>                        			
+        </settingConfig>
+    </setting> 
+
 	<setting propertyKey="@Properties.hitSound" title="@Strings.HitSound" prompt="@Strings.HitSoundPrompt">
         <settingConfig type="list">
             <listEntry value="0">@Strings.HitSoundNone</listEntry>
@@ -228,13 +238,15 @@
         </settingConfig>
     </setting> 
 
+
 	<setting propertyKey="@Properties.hitStartOnPerc" title="@Strings.HitStartOnPerc">
 		<settingConfig type="numeric"/>
 	</setting>	
 	<setting propertyKey="@Properties.hitStopOnPerc" title="@Strings.HitStopOnPerc">
 		<settingConfig type="numeric"/>
 	</setting>	
-    <setting propertyKey="@Properties.hitStartCountDownSeconds" title="@Strings.HitStartCountDownSeconds">
+
+	<setting propertyKey="@Properties.hitStartCountDownSeconds" title="@Strings.HitStartCountDownSeconds">
 		<settingConfig type="numeric"/>
 	</setting>	
 	<setting propertyKey="@Properties.hitStopCountDownSeconds" title="@Strings.HitStopCountDownSeconds">

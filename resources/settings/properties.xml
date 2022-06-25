@@ -21,6 +21,8 @@
 	<property id="targetCalories" type="number">2000</property>	
 	<property id="targetCadence" type="number">95</property>	
 	<property id="targetEnergyExpenditure" type="number">15</property>		
+	<property id="targetGrade" type="number">8</property>		
+	<property id="targetTemperature" type="number">20</property>		
 
 	<property id="hitMode" type="number">0</property>			
 	<property id="hitSound" type="number">2</property>	

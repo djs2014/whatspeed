@@ -13,7 +13,8 @@
     <string id="TargetCalories">Target calories (kcal)</string>    
     <string id="TargetCadence">Target cadence (rpm)</string>    
     <string id="TargetEnergyExpenditure">Target energy expenditure (kcal/min)</string>    
-
+    <string id="TargetGrade">Target grade (%)</string>    
+    <string id="TargetTemperature">Target temperature (C)</string>    
 
     <string id="ShowSeaLevelPressure">Show pressure at sealevel</string>   
             
@@ -21,8 +22,8 @@
     <string id="ShowInfoLeft">Show left</string>        
     <string id="ShowInfoRight">Show right</string>        
     <string id="ShowInfoBottom">Show bottom</string>    
-    <string id="ShowInfoHrFallback">Fallback if no HR connected</string>   
-    <string id="ShowInfoPowerFallback">Fallback if no Power connected</string>     
+    <string id="ShowInfoHrFallback">Fallback if no HR connected</string>    
+    <string id="ShowInfoPowerFallback">Fallback if no Power connected</string>    
     <string id="ShowInfoTrainingEffectFallback">Fallback if no training effect (needs HR)</string>    
 
     <string id="ShowInfoPrompt">Select information</string>
