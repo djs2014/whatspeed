@@ -20,8 +20,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>								
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>			
         </settingConfig>
     </setting>      
 	<setting propertyKey="@Properties.showInfoLeft" title="@Strings.ShowInfoLeft" prompt="@Strings.ShowInfoPrompt">
@@ -45,8 +44,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>			
         </settingConfig>
     </setting> 
 	<setting propertyKey="@Properties.showInfoRight" title="@Strings.ShowInfoRight" prompt="@Strings.ShowInfoPrompt">
@@ -70,8 +68,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>			
         </settingConfig>
     </setting> 
 	 <setting propertyKey="@Properties.showInfoBottom" title="@Strings.ShowInfoBottom" prompt="@Strings.ShowInfoPrompt">
@@ -95,8 +92,7 @@
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
 			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
+			<listEntry value="15">@Strings.ShowInfoTemperature</listEntry>			
         </settingConfig>
     </setting> 
 
@@ -136,6 +132,12 @@
 	<setting propertyKey="@Properties.targetTemperature" title="@Strings.TargetTemperature">
 		<settingConfig type="numeric" />
 	</setting>	
+	<setting propertyKey="@Properties.targetAltitude" title="@Strings.TargetAltitude">
+		<settingConfig type="numeric" />
+	</setting>	
+	<setting propertyKey="@Properties.targetTotalAscent" title="@Strings.TargetTotalAscent">
+		<settingConfig type="numeric" />
+	</setting>
 	<setting propertyKey="@Properties.minimalLocationAccuracy" title="@Strings.MinimalLocationAccuracy">
 		<settingConfig type="numeric" min="0" max="4"/>
 	</setting>	
@@ -169,8 +171,7 @@
 
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>			
         </settingConfig>
     </setting> 
 	<setting propertyKey="@Properties.showInfoTrainingEffectFallback" title="@Strings.ShowInfoTrainingEffectFallback" prompt="@Strings.ShowInfoPrompt">
@@ -193,8 +194,7 @@
 			
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>						
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>			
         </settingConfig>
     </setting> 
 	<setting propertyKey="@Properties.showInfoPowerFallback" title="@Strings.ShowInfoPowerFallback" prompt="@Strings.ShowInfoPrompt">
@@ -217,8 +217,7 @@
 
 			<listEntry value="12">@Strings.ShowInfoElapsedTime</listEntry>
 			<listEntry value="13">@Strings.ShowInfoTimer</listEntry>
-			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>
-			<listEntry value="18">@Strings.ShowInfoTestfield</listEntry>							
+			<listEntry value="10">@Strings.ShowInfoTimeOfDay</listEntry>			
         </settingConfig>
     </setting> 
 	<setting propertyKey="@Properties.hitMode" title="@Strings.HitMode" prompt="@Strings.HitModePrompt">
@@ -256,14 +255,5 @@
 	<setting propertyKey="@Properties.debug" title="@Strings.Debug">
 		<settingConfig type="boolean" />
 	</setting> 
-	<setting propertyKey="@Properties.targetTestValue" title="@Strings.TargetTestValue">
-		<settingConfig type="numeric"/>
-	</setting>	
-	<setting propertyKey="@Properties.testValue" title="@Strings.TestValue">
-		<settingConfig type="numeric"/>
-	</setting>	
-	<setting propertyKey="@Properties.testAltValue" title="@Strings.TestAltValue">
-		<settingConfig type="numeric"/>
-	</setting>	
 
 </settings>

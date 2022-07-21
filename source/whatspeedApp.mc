@@ -29,6 +29,7 @@ class whatspeedApp extends Application.AppBase {
       if (isForeGround) {
           System.println("FG onStop");
           WhatAppBase.WhatApp.instance().onStop(state); 
+          Background.deleteTemporalEvent();
       } else {
           System.println("BG onStop");
       }

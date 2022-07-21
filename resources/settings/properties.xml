@@ -23,6 +23,8 @@
 	<property id="targetEnergyExpenditure" type="number">15</property>		
 	<property id="targetGrade" type="number">8</property>		
 	<property id="targetTemperature" type="number">20</property>		
+	<property id="targetAltitude" type="number">1500</property>		
+	<property id="targetTotalAscent" type="number">2000</property>	
 
 	<property id="hitMode" type="number">0</property>			
 	<property id="hitSound" type="number">2</property>	
@@ -31,8 +33,5 @@
 	<property id="hitStartCountDownSeconds" type="number">5</property>	
 	<property id="hitStopCountDownSeconds" type="number">10</property>	
 	
-	<property id="debug" type="boolean">false</property>	
-	<property id="targetTestValue" type="number">100</property>	
-	<property id="testValue" type="number">145</property>		 
-	<property id="testAltValue" type="number">80</property>		 
+	<property id="debug" type="boolean">false</property>		
 </properties>

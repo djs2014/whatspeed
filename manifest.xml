@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="7d3f6f01-af2c-4827-acd5-ebd5a2a03804" type="datafield" name="@Strings.AppName" entry="whatspeedApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0" version="0.4.9">
+    <iq:application id="7d3f6f01-af2c-4827-acd5-ebd5a2a03804" type="datafield" name="@Strings.AppName" entry="whatspeedApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0" version="0.4.11">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -17,6 +17,7 @@
             <iq:product id="edge1030"/>
             <iq:product id="edge1030bontrager"/>
             <iq:product id="edge1030plus"/>
+            <iq:product id="edge1040"/>
             <iq:product id="edge530"/>
             <iq:product id="edge830"/>
         </iq:products>
@@ -25,6 +26,7 @@
             palette to update permissions.
         -->
         <iq:permissions>
+            <iq:uses-permission id="Ant"/>
             <iq:uses-permission id="Background"/>
             <iq:uses-permission id="Positioning"/>
             <iq:uses-permission id="Sensor"/>

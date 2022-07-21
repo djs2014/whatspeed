@@ -2,7 +2,7 @@
     <string id="AppName">What speed</string>
     <string id="AppNameBeta">What speed beta</string>    
     
-    <string id="FtpValue">FTP</string>    
+<string id="FtpValue">FTP</string>    
     <string id="PowerPerSecond">Power per second</string>   
     <string id="CalcAvgPressurePerMinute">Calc avg. pressure per minute</string>   
     <string id="MinimalLocationAccuracy">Minimal GPS accuracy for calc heading</string>  
@@ -15,6 +15,8 @@
     <string id="TargetEnergyExpenditure">Target energy expenditure (kcal/min)</string>    
     <string id="TargetGrade">Target grade (%)</string>    
     <string id="TargetTemperature">Target temperature (C)</string>    
+    <string id="TargetAltitude">Target altitude (m)</string>    
+    <string id="TargetTotalAscent">Target total ascent (m)</string>    
 
     <string id="ShowSeaLevelPressure">Show pressure at sealevel</string>   
             
@@ -46,9 +48,7 @@
     <string id="ShowInfoElapsedTime">Show elapsed time</string>    
     <string id="ShowInfoTimer">Show timer</string>        
     <string id="ShowInfoTrainingEffect">Show training effect</string>    
-    <string id="ShowInfoTemperature">Show temperature</string>    
-    <string id="ShowInfoTestfield">Show testfield</string>    
-
+    <string id="ShowInfoTemperature">Show temperature</string>            
     <string id="ShowInfoAscentDescent">Show total ascent/descent</string>    
 
     <string id="ShowInfoLayout">Layout middle part</string>
@@ -74,8 +74,5 @@
     <string id="HitStartCountDownSeconds">HIIT warming up seconds</string>    
     <string id="HitStopCountDownSeconds">HIIT cooling down seconds</string>    
     	
-	<string id="Debug">Debug</string>    
-    <string id="TargetTestValue">Test target value</string>    
-    <string id="TestValue">Test actual value</string>    
-    <string id="TestAltValue">Test actual alt value</string>    
+	<string id="Debug">Debug</string>        
 </strings>
