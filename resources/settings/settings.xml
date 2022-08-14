@@ -143,6 +143,9 @@
 	</setting>	
 	<setting propertyKey="@Properties.minimalElapsedDistanceInMeters" title="@Strings.MinimalElapsedDistanceInMeters">
 		<settingConfig type="numeric" min="0" max="10"/>
+	</setting>		
+	<setting propertyKey="@Properties.gradeWindowSize" title="@Strings.GradeWindowSize">
+		<settingConfig type="numeric" min="0" max="10"/>
 	</setting>	
 	
 	<setting propertyKey="@Properties.showInfoLayout" title="@Strings.ShowInfoLayout" prompt="@Strings.ShowInfoLayoutPrompt">
